@@ -94,6 +94,7 @@ namespace CSharpOOPShop2
 
         public virtual void PrintProductDetails()
         {
+            Console.WriteLine("-------DETTAGLI-------");
             Console.WriteLine("Nome prodotto: " + GetProductName());
             Console.WriteLine("Codice prodotto: " + GetProductCode());
             Console.WriteLine("Nome esteso: " + GetExtendedName());
@@ -101,6 +102,7 @@ namespace CSharpOOPShop2
             Console.WriteLine("Descrizione prodotto: " + GetProductDescription());
             PrintBasePrice();
             PrintPriceTotal();
+            Console.WriteLine("-----------------------");
         }
 
         public void SetProductName(string name)

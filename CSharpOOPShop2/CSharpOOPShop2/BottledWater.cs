@@ -17,12 +17,12 @@ namespace CSharpOOPShop2
         private bool isCarbonated;
         public BottledWater(string name, string description, float basePrice, float liters, int ph, string waterSpring, bool isCarbonated) : base(name, description, basePrice)
         {
-            this.liters = liters;
+            this.maxCapacity = 1.5f;
+
+            this.liters = Math.Min(liters, maxCapacity);
             this.ph = ph;
             this.waterSpring = waterSpring;
             this.isCarbonated = isCarbonated;
-
-            this.maxCapacity = 1.5f;
         }
 
         //bevi riempi svuota stampaprodotto
@@ -56,6 +56,11 @@ namespace CSharpOOPShop2
             }
 
             return resultString;
+        }
+
+        public float GetMaxCapacity()
+        {
+            return maxCapacity;
         }
 
         public void Drink(float litersToDrink)
