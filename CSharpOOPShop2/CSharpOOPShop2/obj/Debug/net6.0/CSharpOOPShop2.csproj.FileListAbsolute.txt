@@ -1,0 +1,15 @@
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop-2\CSharpOOPShop2\CSharpOOPShop2\bin\Debug\net6.0\CSharpOOPShop2.exe
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop-2\CSharpOOPShop2\CSharpOOPShop2\bin\Debug\net6.0\CSharpOOPShop2.deps.json
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop-2\CSharpOOPShop2\CSharpOOPShop2\bin\Debug\net6.0\CSharpOOPShop2.runtimeconfig.json
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop-2\CSharpOOPShop2\CSharpOOPShop2\bin\Debug\net6.0\CSharpOOPShop2.dll
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop-2\CSharpOOPShop2\CSharpOOPShop2\bin\Debug\net6.0\CSharpOOPShop2.pdb
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop-2\CSharpOOPShop2\CSharpOOPShop2\obj\Debug\net6.0\CSharpOOPShop2.csproj.AssemblyReference.cache
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop-2\CSharpOOPShop2\CSharpOOPShop2\obj\Debug\net6.0\CSharpOOPShop2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop-2\CSharpOOPShop2\CSharpOOPShop2\obj\Debug\net6.0\CSharpOOPShop2.AssemblyInfoInputs.cache
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop-2\CSharpOOPShop2\CSharpOOPShop2\obj\Debug\net6.0\CSharpOOPShop2.AssemblyInfo.cs
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop-2\CSharpOOPShop2\CSharpOOPShop2\obj\Debug\net6.0\CSharpOOPShop2.csproj.CoreCompileInputs.cache
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop-2\CSharpOOPShop2\CSharpOOPShop2\obj\Debug\net6.0\CSharpOOPShop2.dll
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop-2\CSharpOOPShop2\CSharpOOPShop2\obj\Debug\net6.0\refint\CSharpOOPShop2.dll
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop-2\CSharpOOPShop2\CSharpOOPShop2\obj\Debug\net6.0\CSharpOOPShop2.pdb
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop-2\CSharpOOPShop2\CSharpOOPShop2\obj\Debug\net6.0\CSharpOOPShop2.genruntimeconfig.cache
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop-2\CSharpOOPShop2\CSharpOOPShop2\obj\Debug\net6.0\ref\CSharpOOPShop2.dll
