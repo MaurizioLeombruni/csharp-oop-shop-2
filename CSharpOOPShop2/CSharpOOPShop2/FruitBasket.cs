@@ -8,12 +8,15 @@ namespace CSharpOOPShop2
 {
     public class FruitBasket : Product
     {
+        //Proprietà
         private int maxPieces;
         private int currentPieces;
 
         private List<string> fruitInBasket = new List<string>();
 
         private bool isSealed;
+
+        //Costruttore
         public FruitBasket(string name, string description, float basePrice, string[] fruits) : base(name, description, basePrice)
         {
             maxPieces = 5;
@@ -28,6 +31,8 @@ namespace CSharpOOPShop2
             isSealed= true;
         }
 
+
+        //Getters
         public int GetCurrentPieces()
         {
             return currentPieces;
@@ -57,6 +62,7 @@ namespace CSharpOOPShop2
             return isSealed;
         }
 
+        //Metodi
         public void AddFruitToBasket(string fruit)
         {
             if(fruitInBasket.Count == maxPieces)
@@ -99,6 +105,7 @@ namespace CSharpOOPShop2
             }
         }
 
+        //Override del metodo della classe padre.
         public override void PrintProductDetails()
         {
             Console.WriteLine("-------DETTAGLI-------");

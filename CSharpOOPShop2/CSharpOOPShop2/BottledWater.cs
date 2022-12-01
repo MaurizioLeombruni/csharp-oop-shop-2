@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace CSharpOOPShop2
 {
+    //Sottoclasse di un'acqua in bottiglia.
     public class BottledWater : Product
     {
+
+        //Proprietà
+
         private float liters;
         private int ph;
         private string waterSpring;
@@ -15,6 +19,8 @@ namespace CSharpOOPShop2
 
         private float maxCapacity;
         private bool isCarbonated;
+
+        //Costruttore
         public BottledWater(string name, string description, float basePrice, float liters, int ph, string waterSpring, bool isCarbonated) : base(name, description, basePrice)
         {
             this.maxCapacity = 1.5f;
@@ -25,7 +31,7 @@ namespace CSharpOOPShop2
             this.isCarbonated = isCarbonated;
         }
 
-        //bevi riempi svuota stampaprodotto
+        //Getters
 
         public float GetLiters()
         {
@@ -48,7 +54,7 @@ namespace CSharpOOPShop2
 
             if (this.isCarbonated)
             {
-                resultString = "Yes";
+                resultString = "Si";
             }
             else
             {
@@ -63,11 +69,13 @@ namespace CSharpOOPShop2
             return maxCapacity;
         }
 
+
+        //Metodi
         public void Drink(float litersToDrink)
         {
             if (liters == 0)
             {
-                Console.WriteLine("This bottle's empty!");
+                Console.WriteLine("La bottiglia è vuota.");
             } else
             {
                 liters = Math.Max(0, (liters - litersToDrink));
@@ -78,19 +86,19 @@ namespace CSharpOOPShop2
         {
             if((liters + litersToRefill) >= maxCapacity)
             {
-                Console.WriteLine("This bottle's been completely refilled.");
+                Console.WriteLine("La bottiglia è completamente piena.");
                 liters = maxCapacity;
             }
             else
             {
-                Console.WriteLine("The bottle has been refilled somewhat.");
+                Console.WriteLine("Hai riempito un po' la bottiglia.");
                 liters += litersToRefill;
             }
         }
 
         public void Empty()
         {
-            Console.WriteLine("Because we really like wasting products, I guess.");
+            Console.WriteLine("Parlando di sprechi...");
             liters = 0;
         }
 
@@ -99,13 +107,15 @@ namespace CSharpOOPShop2
         {
             if (isCarbonated)
             {
-                Console.WriteLine("Not-exactly-natural water has been obtained!");
+                Console.WriteLine("Acqua non-proprio-naturale ottenuta!");
                 isCarbonated = false;
             } else
             {
-                Console.WriteLine("The water isn't carbonated to begin with.");
+                Console.WriteLine("Non serve sfiatare acqua non frizzante.");
             }
         }
+
+        //Override del metodo della classe padre.
 
         public override void PrintProductDetails()
         {

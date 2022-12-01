@@ -8,10 +8,14 @@ namespace CSharpOOPShop2
 {
     public class Appliance : Product
     {
+
+        //Proprietà
         private float weight;
         private int wattage;
 
         private bool isTurnedOn;
+
+        //Costruttore
         public Appliance(string name, string description, float basePrice, float weight, int wattage) : base(name, description, basePrice)
         {
             this.wattage = wattage;
@@ -20,6 +24,7 @@ namespace CSharpOOPShop2
             isTurnedOn = false;
         }
 
+        //Getters
         public float GetWeight()
         {
             return weight;
@@ -30,15 +35,9 @@ namespace CSharpOOPShop2
             return wattage;
         }
 
-        //Non so se serve, ma almeno faccio un setter.
-        public void SetWeight(float weight)
-        {
-            this.weight = weight;
-        }
-
         public void GetStatus()
         {
-            if(isTurnedOn)
+            if (isTurnedOn)
             {
                 Console.WriteLine("Sì");
             }
@@ -46,6 +45,12 @@ namespace CSharpOOPShop2
             {
                 Console.WriteLine("No");
             }
+        }
+
+        //Setter (probabilmente inutile)
+        public void SetWeight(float weight)
+        {
+            this.weight = weight;
         }
 
         public void TurnOn()
@@ -98,6 +103,8 @@ namespace CSharpOOPShop2
             }
         }
 
+
+        //Override del metodo della classe padre.
         public override void PrintProductDetails()
         {
             Console.WriteLine("-------DETTAGLI-------");
